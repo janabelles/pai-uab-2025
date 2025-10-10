@@ -1,0 +1,32 @@
+h1{
+    font-family: Cambria;
+    font-weight: normal;
+}
+
+nav ul li{
+    display: inline;
+    padding-left: 20px;
+}
+
+nav {
+    font-variant-caps: all-small-caps;
+    font-size: 20px;
+}
+
+header{
+    width: 20%;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+nav{
+   width: 80%;
+    height: 100px;
+    float: left;
+    background-color: green; 
+}
+
+div#primera { float: left; }
+div#segona  { float: left; }
+div#tercera { float: left; }
