@@ -5,12 +5,14 @@ while (j <= 10) {
 text += "Estem fent bucles while</br>";
 document.getElementById("identificador1").innerHTML = text;
 j++;
+}
 
 //17.2.- Escriu, fent servir la instrucció while, un programa que escrigui a la consola tots els nombres del 5 al 20. //
 let i = 5;
 while (i <= 20) {
 console.log(i);
 i++;
+}
 
 // 17.3.- Escriu un programa, fent servir la instrucció while, que, donat un número N, escrigui a la consola tots els números de N a 1 (per tant, en ordre descendent). Observa el que passa si N < 1//
 let N = parseInt(prompt("Introdueix un número N:"));
@@ -45,3 +47,10 @@ while (i <= M) {
     i++;
 }
 
+//Escriu un programa que demani a l'usuari un número N i mostri a la consola tots els números de l'1 fins a N. Utilitza un bucle while.//
+let N = parseInt(prompt("Introdueix un número N:"));
+while (N)
+
+//Escriu un programa que demani a l'usuari un número N i mostri a la consola tots els números de l'1 fins a N. Utilitza un bucle for.//
+
+ 
